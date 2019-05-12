@@ -1,0 +1,115 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background:white;
+}
+.paraheading{
+    padding-bottom: 30px;
+    font-style: italic;
+
+}
+.content{
+    border-width: thin;
+    border-style:solid;
+    border-color:black;
+    background-color: gray;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+
+
+
+@media only screen and (min-width: 992px)
+{
+   .row .col-md-4{
+        width:28%;
+        margin-left:4%;
+        float: left;   
+    }
+    .button{
+        display:none;
+        
+    }
+    #names{
+        
+        display:none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .row .col-sm-6{
+        width:30%;
+        margin-left:10%;
+        float: left;   
+    }
+    html{
+        font-size: 18px;
+    }
+    .button{
+        display:none;
+        
+
+    }
+    #names{
+        
+        display:none;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+     
+    .button{
+        display:block;
+        background-color: red;
+        float:right;
+        margin-right:1%;
+        margin-top:3%;
+    }
+      
+    .names{
+        text-align:center;
+        
+        
+    }
+    .button:hover{
+        background-color: black;
+    }
+    .row .col-xs-12{
+        width:50%;
+        margin-left:25%;
+        float: left;
+        margin: 100px;   
+    }
+    .content{
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    html{
+        font-size: 16px;
+    }
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.row{
+    margin:100px;
+}
